@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Dudes of Stuff and Things
+Comment=Dudes of Stuff and Things
+Exec=/usr/bin/wine "/home/phil/.wine/drive_c/Dudes/dudes.EXE"
+Icon=cube
+StartupNotify=false
+Categories=Game;LogicGame;
+Terminal=false

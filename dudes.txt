@@ -1,0 +1,1391 @@
+DUDES OF STUFF AND THINGS
+
+Dudes of Stuff and Things is a turn-based strategy game, designed and
+programmed by yours truly, Donald X. Vaccarino. This is a game of building
+up heroes and castles, while fighting enemies and exploring a map. Your goal
+is to eliminate all of the other players. You have to kill all of an enemy's
+heroes and take all of his castles to beat him.
+
+If you are familiar with similar games, you may not need to read this manual.
+Print it out so you can refer to it later, and dive into a game. If you are
+new to turn-based strategy, read on.
+
+YOUR FIRST GAME
+
+Run Dudes by executing DUDES.EXE. Ignore the options and just left click on
+the right arrow in the bottom right of the screen. After it finishes
+generating a map, ignore the next screen that comes up, and click on the
+right arrow in the bottom right corner again.
+
+Now you are playing Dudes. You have a randomly picked castle and hero, on a
+random map. You are looking at the Map Screen, which shows you the fantasy
+world your heroes are in (there is a chance your hero started with a skill
+that makes you decide something at the start of the game. If so, just click
+on the first option it gives you).
+
+Left click on the castle. Now you are looking at your castle, via the Castle
+Screen. The left half of the screen shows the buildings you've got - none so
+far, just empty space and obstacles. Click on the hammer icon. A list of
+buildings appears. Click on the square to the left of the first building
+name (it will either be Shadows, Shrinking Men, Robots, Bunnies, Lab
+Assistants, Scorpions, Rubber Rats, Urchins, Angry Villagers, or Magicians).
+Then click on the lower hammer icon (not the one you already clicked on).
+Now you've built a creature dwelling. Click on one of the + icons that showed
+up. Now you've bought some creatures. That won't be enough. Do this again -
+click on the hammer, then the square by the first monster name, then the
+lower hammer, then one of the + icons. Now you've got more creatures. Okay.
+Click on the cancel icon (the circle with a line through it).
+
+Right click on some of the stuff near your castle, to see what it is. Some of
+the nearby things will be piles of stuff. Left click on one. If you can't
+reach it, nothing happens. If you can, a path of X's shows up, leading from
+your hero, who is a guy on a horse, to the object. Click on it again. You
+walk to the pile and pick it up. The lower right window says what you've
+found.
+
+Left click on a space adjacent to a nearby monster. The monsters are maroon.
+You'll get a path of X's and then a sword icon (or just a sword if the
+space is adjacent to your hero). Click again and you walk this path, and go
+into combat. You will see a Combat Screen.
+
+At any time during combat, it's either your turn or the computer's. When it's
+the computer's turn, one of its monsters - the maroon ones - will be
+highlighted, and you'll have to wait to see what the monster does. When it's
+your turn, one of your monsters will be highlighted, and you can pick what
+your monster does. Left click on a shadowed hex to move your monster there;
+then click on an adjacent monster to attack it. If your monster has a range
+attack, you can attack distant monsters without moving, but if you move you
+will only be able to hit adjacent monsters.
+
+Each monster will get its turn in order by their speed. At some point it
+will be your hero's turn, either to shoot (if you have Archery) or to cast
+a spell. When this happens, your hero's face appears on the right,
+highlighted, and the computer waits for you to pick a spell. You can just
+skip this by clicking on the hourglass icon.
+
+Once you kill all of the opposing monsters, the battle is over. The monsters
+vanish from the map, and you can now reach things that the monsters were
+blocking, such as a Rock Quarry. Eventually you will run out of movement.
+When you do, left click on the hourglass on the right edge of the screen, and
+then left click on the hourglass in the lower right window. That ends your
+turn. The computer will quickly take its turn, and then you'll get to go
+again.
+
+Spend the early turns picking stuff up, fighting the battles closest to your
+castle, and flagging the Rock Quarries (by walking up to them and clicking
+on them, on the left half). Visit buildings that give you a black X instead
+of a black sword when you click on them; most of them make your hero better.
+When you have enough money, buy a Bazaar in your castle; this will make you
+more money. Build more Bazaars and more creature dwellings (and not just
+the first one), buy the creatures, and take them with you to fight tougher
+battles.
+
+The remaining sections explain all of the different screens in detail, and
+describe the monsters, skills, spells, and map locations.
+
+OPTIONS
+
+When you start the game, you can choose either to play a random map, a
+random map from a template, load a saved game, or quit. You can also edit
+your twists.
+
+A random map may have 2, 3, 4, 6, or 8 players (5 and 7 don't work well with
+the random map generator). These include both humans and computer players.
+You can also choose a "loopiness" factor. This is how much the map is allowed
+to have little loops - places where you can walk around in a circle. With
+loopiness 1, you'll have a very maze-like map; with loopiness 5, you can end
+up with a map with big open spaces, punctuated by small patches of obstacles.
+Loopiness only controls the small loops - big loops will exist or not, as
+needed to make the map fair, regardless of the loopiness setting.
+
+Random maps are normally generated very quickly. However an 8-player map may
+take a minute to generate.
+
+A random map from a template is like a random map, except that the overall
+layout of the map has been pre-defined in a file. You can choose which file
+to use. The name of the file tells you a little about it; you also can see
+how many players the map has, and how big the map is (100% is the maximum).
+If you play the same template multiple times, it will be a little different
+each time, although you will know the basic paths, and where all of the
+castles are.
+
+You can only have one game saved at once. It's saved in a file called
+SAVEGAME.DAT, so if you really must, you can rename it to get more saved
+games. When you pick Load Saved Game, you simply resume playing the saved
+game from where it was saved.
+
+Twists are a way to modify the basic rules of the game, to spice things up.
+Don't play with any until you've played a few normal games. When you're
+ready for twists, you can edit them by clicking on that arrow. This will
+take you to a separate screen listing the twists. Each twist is either on,
+off, or ?, toggled by left clicking. Choose on to always use this twist,
+off to never have it, and ? to sometimes have it, picked randomly. Click on
+the arrow to return to the options screen. From there you can choose how
+many twists to use. That's how many random twists you'll have - always-on's
+aren't counted. Twists can't be changed in the middle of a game. The specific
+twists are detailed in a later section. The rest of the manual will explain
+how the game works assuming that you have no twists.
+
+Once you've picked what you want, click on the right arrow in the bottom
+right corner of the screen. Unless you picked Load Saved Game, you will now
+have a chance to fiddle with the starting positions. The screen shows data
+on each of the players in the game. Data goes from left to right for a
+single player.
+
+First there's a flag, showing the color of that player. This color identifies
+their heroes and buildings on the map.
+
+Then there's a symbol that's either a guy or a computer. A guy means a human
+player; a computer means an AI player. Click to toggle it. An all-AI game is
+not allowed. If you only want one player, but don't want to be light blue,
+simply turn player #1 into an AI player, and turn another player into a
+human.
+
+Next is your starting castle type, and icons showing what the creatures for
+that castle type look like. Left click to pick a different castle type.
+
+Next is your starting hero. Each player always starts with one castle and
+one hero, positioned in the castle. You can have a random hero, or can
+choose the specific hero you want. Each hero can only be owned by one
+player. Heroes are associated with castles; there are 14 heroes per castle.
+You can end up controlling heroes from different castle types over the
+course of the game, but at the start, you have to pick a hero that
+corresponds to your castle type. Next to the hero's picture, it shows that
+hero's starting skills, starting spell, and friendly monster (the monster it
+will summon if it gets a skill that summons monsters). You can right-click
+on these for more information, and left click to pick a different hero.
+
+Finally there's the difficulty setting. It's easy or normal. On easy you
+start the game with a Mint, which means you'll be producing a lot more
+resources then the other players. Normally, you want to leave everyone on
+normal. For an easy game, put yourself on easy, leaving everyone else on
+normal. For a hard game, put yourself on normal, and everyone else on easy.
+You can also put everyone on easy, which will make for a normal game, only
+one where everyone has more money.
+
+Normally you will want to leave the AI players with the random castles that
+they start out with, and random heroes too. However sometimes you may want
+to change the AI players so that they all have different castles, for
+variety, or else so that they all have the same castle type, for a different
+kind of variety. You probably don't want to pick what heroes the AI players
+start with, but you can if you want to.
+
+Once you're happy with your choices, click on the right arrow in the lower
+right corner of the screen, to start the game.
+
+MAP SCREEN
+
+This screen shows the fantasy world, and lets you move around in it.
+
+Most of the screen shows part of the map. You can scroll with the arrow
+keys, or right-clicking and dragging. Empty space is a solid color - usually
+a shade of green, but sometimes snow-color or a dark desolate color. There
+are also roads, which aren't functional (except that they tend to lead you
+to other castles). There are obstacles: mountains, hills, different kinds of
+trees and plants, water, chasms. There are buildings you can visit with your
+heroes. There are also heroes, either yours or enemy ones, and neutral
+monsters, which must be fought in order to pass them. You can right-click on
+something to get hint text about it. If there's no hint, it's either empty
+space or an obstacle, and either way it isn't very interesting.
+
+The upper right shows a small picture of the whole map. You can left-click
+on this as another way to scroll. You can right-click on it to toggle it
+between showing terrain and just showing obstacles and visible heroes and
+castles.
+
+The middle right shows an icon for each of your heroes or castles. Click on
+the hero icon (a guy on a horse) or hourglass to switch to heroes, or the
+castle icon to switch to castles. Then click on the icon for an individual
+hero or castle in order to center the map on that hero/castle, and click
+again to go into the hero screen or castle screen. If you have more than 8
+castles, the 9th spot will be an arrow, which you click on to get to the
+next set of 8 castles. The hero icons are red-bordered when the hero is out
+of movement.
+
+The bottom right is a general purpose window. You can right click on it to
+cycle through 3 windows - the active hero's troops (plus movement points and
+spell points); your resources; and a window with an hourglass icon, which
+you click on to end your turn, and a computer icon, which you click on to
+get to the system window, from where you can save the game, reload, quit,
+quit to the menu, and see the twists. You can also jump to a specific window
+with those 3 icons above it - hero shows you the active hero's troops, castle
+shows you your resources and the date, and hourglass shows you the hourglass
+and computer. This window also shows hints that you get from right-clicking
+on the map, unless they're too big to fit (then they open their own window).
+During certain actions, like choosing a new skill, this window will show
+information that is useful at that time.
+
+As long as you have at least one hero, one of those heroes is active. When
+you click on the map, that will make a path between the active hero and
+that spot. Clicking again on the same hex will cause you to actually walk
+down that path, as far as you can this turn. The path is made up of green
+X's for the part you can travel this turn and red X's for parts you can
+only reach on future turns. If a path ends in a sword, that's a fight; if
+it ends in a black X, that's a location you can visit. If you click on an
+unreachable location, that will clear the path.
+
+You fight monsters by clicking next to them, not on them. You fight enemy
+heroes and castles by clicking on the hero or castle. You fight map
+locations with fights by clicking on them.
+
+You can also left/right click on the active hero on the map to go into the
+hero screen for that hero, and you can left/right click on one of your
+castles on the map to go into the castle screen for that castle.
+
+HERO SCREEN
+
+This screen lets you see what your heroes are made of; it also lets you
+rearrange your troops and artifacts.
+
+The top left shows some basic information about your hero - name, level,
+experience points, movement points, spell points. Name has no function.
+Level is also meaningless; it's just a measure of your experience points.
+Experience points are how you go up levels, which is how you learn new
+skills; the number after the slash is how many experience points you need
+to go up a level. Movement points are how many squares per turn your hero
+can move on the map; the number after the slash is your total movement.
+Spell points are used to cast spells in combat; the number after the slash
+is your maximum spell points, and the number in parentheses is how many
+spell points you can use each combat round. You can't have more spell
+points than your maximum, except while fiddling with what artifacts your
+hero is wearing on this screen (if you take off an artifact that increased
+your maximum spell points, and leave this screen, your spell points will
+then be reduced to your maximum).
+
+Below that are your artifacts. You can wear 15 artifacts, and can also carry
+30 artifacts in your backpack. A few artifacts can't be worn; they just stay
+in your backpack. The rest can be worn. Click on an artifact to take it off
+or put it on; an artifact you can wear will only be wearable in one kind of
+position; for example a Ring of +1 Power must be worn in one of your two
+Ring slots. If you have no space in your backpack, or are already wearing
+as many of that kind of artifact as you can wear, then clicking on an
+artifact just highlights it; then click on the artifact you want to exchange
+it with, to put it on or take it off. If your backpack is full, you may end
+up wearing an artifact that you can't remove. Only 15 artifacts in your
+backpack are displayed at once; if there are more, an arrow will appear,
+and click on it to get to the other 15.
+
+Below the artifacts are your troops. Click on a troop to highlight or
+unhighlight it. While it's highlighted, you can click on another slot to
+exchange that stack with that other stack (or empty space). You can also
+click on the icons to manipulate the stack. The <guy / 1> icon splits off
+just 1 monster from the stack. The <guy / guy> icon splits off half of the
+stack. The <guy / N> icon divides all monsters of that type equally among
+all stacks of that monster type, and all empty stacks. The <tombstone> icon
+just turns red. Click on it again to dismiss the highlighted stack.
+
+The upper right shows your skills. To the left are your blue skills and to
+the right your yellow skills. See Hero Skills for an explanation of them.
+Only skills learned normally are displayed here; for example skills gained
+from artifacts are not. If the hero doesn't have Summoning, the monster he
+would summon is listed under the blue skills.
+
+Below that are your spells. They are sorted by level. A green spell works
+on friendly troops, a red one on enemies, and a gray one on both. Spells
+are only usable during combat.
+
+Below that there may be one or two hero faces, which you can click on to
+switch to looking at your previous or next hero, if any; and there's a
+cancel icon, which gets you out of this screen.
+
+You can right click on an artifact, skill, spell, or monster stack, to find
+out what it does. For spells you will see what the spell does for this
+specific hero, not what the base spell does. For monsters you will see how
+good the monsters are for this hero, which may not be the same as how good
+they are for other heroes.
+
+You can't choose the order that artifacts are in in your backpack. They are
+always sorted into a particular order.
+
+You can reach this screen from some information windows. If you do, you
+won't be able to modify your troops or artifacts then. Your hero is either
+in the middle of something, or it isn't even your hero. You can do
+everything if you reach the screen normally, such as from the adventure map.
+
+CASTLE SCREEN
+
+This screen lets you build new buildings in your castles, buy troops,
+transfer troops to your visiting heroes, buy new or defeated heroes, and
+trade resources.
+
+The upper left area shows your castle's buildings. It's an 8 by 8 grid.
+Some buildings take up multiple squares. At the start of a game, your
+castle will have 4 (sometimes fewer) squares with obstacles, and the rest
+will be open space. When you take over a neutral castle, it will sometimes be
+an outpost, which means it will have a lot more obstacles.
+
+The lower left shows troops stationed at the castle, and a visiting hero
+if any, and his troops. You can click on the icons to split up troops,
+like on the Hero Screen. You can click on the hero to go to the Hero Screen
+for that hero. The down arrow moves the "best" troops stationed at the castle
+into the visiting hero's army.
+
+The upper right has icons for doing different things in the castle; the
+space below shows different things depending on what you're doing (and at
+the very bottom, your resources are displayed). Icons are blacked out when
+they won't do anything. Click on the icons to do the following actions:
+
+1. Two little guys - buy troops. Click on the + at the top to buy all
+   troops you can afford, starting with the most expensive ones. Click on
+   a + to the right of a monster to buy all of that monster that you can;
+   click on 1 to buy just one of that monster. The monsters go into the
+   visiting hero's army if possible, or else into the castle's stationed
+   troops.
+
+2. Mallet - build buildings. First you get a list of buildings to build.
+   To the left is the shape of each building (the pattern of squares it
+   will fill up on the grid); next to that is the building name. If the
+   building name is white, you can build it. If it's light gray, you can't
+   build it because you can't afford it, and the resources you need are
+   listed to the right of the name. If it's dark gray, you can't build it
+   because it doesn't fit anywhere on your grid.
+
+   Click on a building's shape. Now the screen displays the name of the
+   building, its cost, some information about it, and some additional
+   icons. The grid now shows an outline of your building, positioned
+   somewhere that it can go (if there is such a place). If you can't afford
+   the building, the resources you lack will be highlighted. If you can't
+   place the building anywhere, some of the sections of building on the
+   grid will be ghosted. If you can afford it and can fit it, you can build
+   it; there are no other requirements.
+
+   The curvy arrow lets you rotate the shape. The <-> arrow lets you invert
+   the shape left-right. The mallet lets you build it, if the shape is
+   currently positioned somewhere that it can go. The head lets you plan it;
+   it will be placed on the grid, ghosted, but won't actually be built;
+   you're just mentally reserving space for later. You can remove a planned
+   building by right-clicking on it or building/planning over it. Plans
+   vanish if an enemy takes your castle.
+
+   You can left click on the grid to position the building. Do this. Use
+   the arrow icons to rotate and mirror the shape until you've got it where
+   you want, rotated how you want it. Then click on the mallet to actually
+   build.
+
+3. Bolt - view spells. This simply shows you what spells are available in
+   this castle. Any hero visiting the castle learns them all.
+
+4. Hero - buy hero. This is how you get more heroes. You can only have 8
+   heroes total. You can choose between two new heroes, or your two best
+   defeated heroes (if any). The new heroes will correspond to this castle's
+   type, until all 14 of those heroes are hired (then you can still buy
+   new heroes, but they will correspond to some other castle type). Heroes
+   cost 2500 gold. When you hire a defeated hero, he usually has only 1
+   movement and no spell points. You can right click on a hero's picture to
+   see more information about that hero (although, for new heroes, all of
+   the relevant information is already displayed).
+
+5. $ - trade resources. Click on the pictures in the top two lines to pick
+   what to trade and what to trade it for, or click on the pictures separated
+   by the arrow to rotate through the possibilities. Click on the 1, 5, or 10
+   to actually do the trade, of the resources indicated by the arrow, once,
+   at the exchange rate displayed.
+
+6. Castle left/right - switch castles. This simply switches you to the
+   previous or next castle you own, without leaving this screen.
+
+7. Cancel - exit the castle screen.
+
+The different kinds of castle buildings are:
+
+1. Creature dwellings. There are 6 of these for each castles. They produce
+   creatures daily, at a particular rate. The more expensive the creature,
+   the less you get per day. Fractions are remembered. Most of your castle
+   will consist of these buildings.
+
+2. Spell Crypt / Spell Tower. These buildings teach your heroes spells. The
+   Spell Crypt teaches 2 1st level and 2 2nd level spells; the Spell Tower
+   teaches 2 3rd level and 2 4th level. Each successive building you build
+   is guaranteed to provide spells you didn't have already, until you have
+   a full set of 5 Spell Crypts and 4 Spell Towers. Heroes have to visit the
+   castle to learn the spells from it.
+
+3. Bazaar / Mint. These buildings make you money daily. A castle produces
+   500 gold / day by itself. The Bazaar gets you an additional 500 gold / day,
+   and the Mint makes 2500 gold / day. The Mint is a better deal in every
+   respect, except that you have to save up money longer to build it; you
+   will usually build multiple Bazaars instead.
+
+4. Mine. A particular type of mine, such as are found on the map, can be
+   built in each castle. What kind of mine you can build depends on your
+   castle type.
+
+5. Barbican. This defends your castle when it's attacked. It deals 100 damage
+   at the start of each combat round, to a deserving enemy (you don't control
+   it). Barbicans can normally only be destroyed by the Grenade spell or the
+   Cloud Giant's attack. A castle can only have 12 functioning Barbicans; any
+   more are just decoration.
+
+6. Treasury. This holds a crown artifact, for when you somehow acquire one.
+   There are several kinds of crown artifacts. When you get one, take it to
+   one of your castles and build a Treasury. Then click on your hero, and
+   click on the artifact, and choose to leave it. It will be built into your
+   castle (filling up the Treasury), and will give some exciting benefit to
+   the owner of the castle (which will be you unless an enemy takes the
+   castle).
+
+COMBAT SCREEN
+
+This is the screen that shows up whenever one of your heroes attacks
+something, or whenever one of your heroes is attacked. You fight it out.
+If you win, you get experience, and have defeated whatever it was. If you
+lose, your hero must be rehired at a castle (or abandoned).
+
+The left two-thirds of the screen is the battlefield. Empty hexes will be the
+color of the terrain you're fighting on. There are obstacles, like on the
+adventure map. There are also special obstacles, and dangerous terrain. The
+battlefield is a hex grid, even though the hexes are displayed as squares.
+
+Monsters are blue for the attacker, maroon for the defender; the little
+number in the corner is how many monsters are in a stack. The number is
+white normally. If the number is red, the monster has a bad spell affecting
+it (or spell-like ability); if the number is green, the monster has a good
+spell affecting it. It's yellow for both. Conjured creatures (which aren't
+kept at the end of combat) have a black outline.
+
+Combat proceeds as a series of combat rounds, in which each monster and
+hero gets a turn. At any given time, it's some monster or hero's turn, and
+that monster/hero is displayed in the mid-right.
+
+You take a monster's turn by simply clicking on the hex you want the monster
+to move to, if any, and then clicking on the adjacent hex you want the
+monster to attack, if any. If a monster moves to a hex from which it can't
+attack, you automatically skip the attack. If a monster can attack without
+moving (either because it's adjacent to an enemy, or because it has a range
+attack), you can skip moving and just attack.
+
+A movement shadow shows you where the active monster can move. The reachable
+hexes are all darker. You can also right click on a monster to see its stats
+(in the lower right), and to see where it can move to. This will be indicated
+by the hex being bordered with dark gray instead of light gray. You can right
+click on an empty hex to stop tracking the last monster you right clicked on.
+When a monster has more than 5 abilities or effects on it, right-click on
+"More" to see the rest. The lower right will show a log of events happening
+in combat when it isn't showing a tracked monster.
+
+When you're picking what hex to attack, monsters will go dark if they'd be
+damaged as a result of attacking the hex the mouse arrow is hovering over.
+Sometimes an attack will be complicated and you will see that a stack will
+be damaged even though it isn't obvious why. For the random chain lightning
+effect of Electric Eels, hexes that are only sometimes going to be damaged
+won't be as dark. When you're picking what hex to move to, monsters will go
+dark if they'd be damaged, or have the terrain of their hex changed, as a
+result of that move. This applies to Steamrollers and Flying Slugs, and to
+other situations you can generate via spells or twists.
+
+Some monsters can attack empty hexes, and sometimes such a monster will
+have the option of moving to a hex that it also has the option of attacking.
+If you left-click on such a hex, it won't be clear which action you intend
+to do. So, the hex will be divided diagonally, and show a boot and a sword.
+Click on the side that corresponds to what you want to do - the boot if you
+want to move to the hex, the sword if you want to attack it.
+
+The upper right has an hourglass icon. This is used when you want a monster
+or hero to do nothing. You can also use it after moving, if you want the
+monster to move to a hex but then not attack an adjacent monster. Yes, this
+will actually come up. You also click on the hourglass to stop selecting
+spell targets if you can select more but don't wish to.
+
+There is also a tombstone icon, which you can click on to concede the battle.
+You can also do this with the Escape key; either way it will ask if you're
+sure. You will almost never want to do this, unless you are quitting the
+game. Any monsters that you kill before dying will stay dead, whether on the
+map or in a hero or castle's army (but not in a Fort or Dwelling). You gain
+nothing by conceding. You might as well fight to the bitter end.
+
+Below the icons, the faces of the one or two heroes involved in this
+battle are displayed, and a flag for a side with no hero. Right-click on the
+face or flag to have the tracked-monster movement shadow (the hex border)
+show where all monsters on that side combined can move. That is, you will
+see every hex that at least one monster on that side can move to.
+
+The heroes are not on the battlefield, but they are involved; the attacking
+hero is somewhere off to the left of the battlefield, and the defending hero,
+if any, to the right; from there they can cast spells and sometimes shoot.
+
+When it's a hero's turn, the space below the faces, which normally shows a
+monster, will show a hero instead. If it's that hero's turn to shoot (using
+the Archery skill), simply click on the enemy stack you want to shoot. If
+you want to skip using Archery, click on the hourglass.
+
+If it's a hero's turn to cast spells, you will see a list of spells below
+the hero's picture. It will also say "Spells Page 1" and will show the
+hero's spell points remaining for this round (before the slash), and total
+spell points (after the slash).
+
+Click on "Spells Page 1" to page through your hero's spells (if you have
+more than one page of spells). Right click on a spell to see what it does
+(this will take into account your hero's skills and artifacts). The list
+of spells also indicates how many spell points a spell costs (to the right
+of the spell name), and sometimes extra cryptic information about the spell
+(even further to the right). This extra information is the % strength of
+the spell, or how much damage it deals; it's a short version of what you
+get when right clicking on the spell, and is useful once you're familiar
+with the spells. Left click on a spell to cast it.
+
+If a spell costs more spell points than you have, it isn't even displayed
+in the list; you can't cast it. If a spell requires more spell points than
+you have available this round, but less than your total spell points, then
+you can cast the spell, but it won't resolve this round. You will spend as
+many spell points as you can on it this round, and automatically continue
+spending spell points on it next round, and when you've finally spent its
+cost, it will resolve. Spells which won't resolve this round have gray text
+to the right of them, instead of white text. If combat ends before the spell
+resolves, you are still out the spell points you've already spent on it.
+
+Yes, you will sometimes cast spells even though they don't resolve right
+away. Normally you can only spend 15 spell points per round. Spells that cost
+20 or more spell points are often worth waiting a round for.
+
+Some spells have targets. After you cast the spell (or when it finally
+resolves), you choose the targets. Normally you just get one target; click
+on the target, and the spell will be cast. If you can choose multiple
+targets, click on each target that you want. Until you've clicked on your
+full allotment of targets, you can keep clicking on new targets, and can also
+click on an previously-clicked target to unselect it. You can click on the
+hourglass to stop picking targets when you haven't picked all that you are
+entitled to. If a good or evil spell with targets can target every friend or
+enemy in the battle, and will do the full effect to each target (it doesn't
+have a strength determined by Power or Witchcraft) it will do so
+automatically, without you having to click on them.
+
+You can keep casting spells as long as you have more spell points usable
+this round. If you don't want to cast a spell, click on the hourglass.
+
+There are special terrains that sometimes appear. Fire is red. It deals
+200 damage to a stack that starts its turn in the Fire. Water is blue. If
+a non-flying stack starts a turn in water, its movement is halved.
+
+There are also special obstacles. In a castle battle, there will be gates
+and sometimes barbicans. A gate can be walked through by the defenders, but
+is an obstacle to the attackers, who can attack it. Each attack will weaken
+it at least a little; when enough damage has been done to it, it will
+disappear. A barbican deals 100 damage to an attacking stack at the start of
+a combat round. The defending player (if any) does not control them.
+
+At the end of the battle, if you won, you get experience. If you were
+attacking some neutral monsters on the map, they are gone. If you were
+attacking a Dwelling, it is now no longer guarded; if you were attacking a
+Fort, you get its treasure. If you were attacking a castle, it's yours now.
+If you were fighting a hero, that hero is defeated and leaves the map, and
+you take that hero's artifacts.
+
+A defeated hero gets no experience, and is reduced to 1 movement and 0 spell
+points. Defeated heroes can be rehired by the player who originally hired
+them, in any of that player's castles. No other player can ever get them.
+
+Sometimes you will fight a hero or castle with no army. In that case the
+combat screen appears, then immediately disappears, and the battle is over.
+
+HERO TALK SCREEN
+
+This is the screen that shows up when one of your heroes walks up to another
+one of your heroes, and clicks to visit. It lets you exchange troops and
+artifacts between your heroes.
+
+The top half of the screen shows one of the heroes, and the bottom half the
+other. The troop-manipulation icons from the Hero Screen are present. Click
+on an hero's face to go to the Hero Screen for that hero (you often do this
+in order to take off or wear artifacts). Click on an artifact to give it to
+the other hero; if there is no space in the other hero's backpack, the
+artifact is highlighted instead, and you have to click on an artifact to
+exchange it with. Click on a creature stack to highlight it; you can use the
+troop-manipulation icons for that hero, or can click on a stack in the other
+hero's army in order to exchange the stacks (and you can exchange a stack
+with an empty slot).
+
+Click on the down arrow icon for the top hero, to give the bottom hero the
+best troops out of the combined troops of both heroes. "Best" is judged the
+way the AI does it - by total gold piece cost. You will sometimes want to
+keep a stack in your "good" army even if it isn't the better stack (for
+example if you have Summoning and it's producing that creature type). The
+up arrow icon does the same thing in reverse. The cancel icon in the lower
+right corner gets you out of the screen.
+
+GAZETEER
+
+Following is a guide to the objects and locations you can visit.
+
+Objects You Pick Up
+
+These are all things that you touch to pick up, whereupon they vanish from
+the map.
+
+- Resources. These are just piles of resources - gold, rocks, apples,
+  emeralds, quartz, beakers, or clay.
+- Chest. This gives you a choice between gold or experience. In the early
+  game, always take the gold.
+- Barrel. This either gives you some resources, or flags a distant mine or
+  Tower for you.
+- Bag. Sometimes this gives you a bag of junk, baubles, or jewelry, which
+  goes in your backpack, and can be sold at a castle. Sometimes this gives
+  you a choice between an artifact or experience.
+- Potion. Sometimes this gives you one level of a blue skill that you already
+  have. Sometimes this gives all of your heroes extra movement and spell
+  points (one time only). Sometimes this lets you pick one of your stacks
+  of monsters, and upgrades that stack to the next highest level monster.
+  Sometimes this combines two artifacts you've got into one artifact.
+- Artifact. This is some trinket that will improve your hero. It normally
+  has to be worn to do anything. It will automatically be worn when you pick
+  it up, unless you are have no room in the matching slot type. You can't
+  just right-click on it on the map to see what it does; you'll have to get
+  one to know what it does.
+- Friendly Creatures. Blue creatures on the map will join your army. You
+  have to have space for them.
+
+Battles
+
+These are things that send you to the Combat Screen to fight a battle.
+
+- Monster. A maroon monster is something you have to fight to get by. You
+  can't step into hexes adjacent to the monster without fighting it. You
+  will always want to right click on the monster first to see how many
+  monsters there are (roughly). Note that the monsters may be accompanied
+  by some monsters of the next highest level, or, for 6th level monsters,
+  by big stacks of 1st level monsters.
+- Hero. Friendly heroes can be talked to (letting you trade artifacts and
+  troops). Enemy heroes are fought.
+- Castle. Friendly castles can be visited (to pick up troops and learn
+  spells). Enemy and neutral castles must be fought. Sometimes an enemy
+  hero or castle will have no troops; those battles are easy. Neutral
+  castles have no defense during the first week of the game. Some neutral
+  castles will be "outposts;" this means they have a lot more obstacles than
+  a normal castle.
+- Fort. These are special battles. You get a unique battlefield, fight a
+  generally tough battle, and win gold and an artifact. If you lose, the
+  fort replenishes its troops. If you win, the Fort is then empty, and can
+  no longer be fought.
+
+Locations You Visit Once Per Hero
+
+These are locations that each hero can only usefully visit once.
+
+- School. This teaches your hero a skill. If you already have that skill,
+  you get another level of it, unless it's a yellow skill that you are maxed
+  out for. If you don't have the skill, and already have the maximum number of
+  skills you can of that type, you don't get anything.
+- Spell Pavilion. This teaches your hero a spell. If you already know the
+  spell, nothing happens. You won't know what spell a Spell Pavilion teaches
+  until at least one hero visits it.
+- Monument. This gives your hero experience. The amount of experience varies
+  based on the relative difficulty of the area of the map where the Monument
+  is.
+- Sage Hut. This gives your hero experience, equal to the full amount needed
+  for you to go from your current level (ignoring the extra experience you
+  have) to the next level. So you always gain a level. If you are close to
+  going up a level anyway, don't worry, you aren't gypped - you get the
+  amount for the whole level, not the remaining portion.
+
+Locations You Flag
+
+These are locations you claim for your color. They get a flag showing that
+they're yours, and/or change to your color. While they're yours they do
+something for you continually. But another player's heroes can come along and
+take them away from you.
+
+- Mines. These produce resources at the start of your turn. There is one
+  type for each type of resource - gold, rocks, apples, emeralds, quartz,
+  beakers, clay.
+- Tower. This gives all of your heroes +1 of a particular blue skill, while
+  it's flagged. This applies even if your hero doesn't have that skill
+  normally, or already has a full set of blue skills.
+- Shaman's Hut. This gives all of your heroes +1 spellcasting speed while it's
+  flagged (it also applies to archery speed).
+- Magician's Home. This improves spellcasting for all of your heroes while
+  it's flagged. Spells that deal damage will do 20% more damage; spells with
+  a % will have 20% greater %; summoning spells summon 20% more; spells with
+  a duration get +1 duration; and other spells are 1 spell point per level
+  cheaper. A spell qualifying for two of these bonuses only gets one (the
+  first listed).
+- Wizard's House. This lets all of your heroes spend an extra +5 spell points
+  per combat round, while it's flagged.
+- House of Husbandry. This increases your castle creature production while
+  it's flagged. Each of your castles produces +5 gp per day per square of
+  creatures of the level corresponding to the House's level (which you can
+  see by right-clicking).
+
+Locations You Visit Repeatedly
+
+These are places you will want to visit over and over.
+
+- Farmstead. This pays 1000 gold, once per week. The gold icon goes dark to
+  show when it's paid up.
+- Miner. This pays 5 resources of a random type, once per week. The pickaxe
+  icon goes dark to show when it's paid up.
+- Dwelling. A higher-level Dwelling starts off as a battle, and has a red
+  picture of a monster. Once you've fought the battle (which is easy), or if
+  there is no battle, the Dwelling sells the pictured monster type (and the
+  icon is blue). The Dwelling gets fresh monsters each week on day 1. If
+  it's sold out, the icon is dark gray.
+- Horde Dwelling. This is like a Dwelling, but you to have to fight for it
+  every week, and it sells 40 1st level creatures that match the castle type
+  of the visiting hero. The creatures always match the visiting hero, even if
+  some of them were bought by a different type of hero.
+- Shrine. This gives your hero +2 of the pictured blue skill, for 3 days, or
+  until you visit another Shrine.
+- Altar. This gives all creatures in this hero's army a special ability in
+  combat, for 3 days, or until you visit another Altar. The abilities are
+  better in more difficult map areas.
+- Junk Merchant. First, your hero can sell all of his Bags of junk/baubles/
+  jewelry, for a worse-than-usual price, and can sell low-level artifacts
+  for 1500 gold each. Then, you can buy a random mid-level artifact. The
+  artifact changes each week; you can visit the Junk Merchant again to buy
+  multiple copies of the artifact. The price for the artifacts goes up each
+  time one is bought.
+- Library. This teaches your hero a magic-related skill and two spells. If
+  you can't learn part of the lesson (due to not having room for the skill,
+  or already knowing the spells), it doesn't tell you this. The skill and
+  spells change each week. You can visit the Library multiple times to learn
+  the same skill repeatedly; the price goes up each time.
+- Academy. This converts a stack of monsters to the next highest level type
+  of monster. It only converts monsters of a particular level, indicated
+  when you right click on the Academy. You have to pay twice the difference
+  in value between the original stack and the new stack.
+
+Locations You Visit Once Ever
+
+These are locations which are completely useless after visiting them once.
+
+- Watchtower. This reveals an area of the map.
+- Hermit Cave. This teaches your hero a unique ability, only available from
+  Hermit Caves. Each hermit cave can only be used once, and each hero can
+  only learn from one hermit. There are four possible abilities; you will
+  have to visit some Hermits to find out what they are.
+
+CREATURES
+
+This section details the creature abilities, by castle type. Each castle has
+6 creatures, from 1st to 6th level.
+
+Circus
+
+1. Magicians. Flying. When a good spell is cast on another stack, the
+   Magicians copy it onto themselves.
+2. Ringmasters. Range. When the Ringmasters attack a stack, they teleport it
+   next to them.
+3. Clown Cars. Instead of moving/attacking, the Clown Cars can create a
+   stack of random 1st level monsters, with one monster per Clown Car. You
+   don't keep these monsters at the end of combat. Just click on the
+   hourglass if you want them to make creatures for their turn.
+4. Lions. Attacks 3 times. The attacks can be on different monsters, but the
+   Lion only gets to move once.
+5. Elephants. Moves 4 hexes over its speed, and tramples over a line of
+   attacked monsters. The Elephants hit every monster in a line, until coming
+   to an empty hex or an obstacle or edge. If there was an empty hex on the
+   other side, the Elephants move there.
+6. Fire-eaters. Attacks 2 hexes in each direction, without damaging friendly
+   stacks.
+
+Clown Cars are effectively a range troop. The monsters they make can clog up
+the battlefield for you while you make more of them; in the early game this
+can be really strong. Ringmasters sometimes have a penalty - you don't want
+to pull the monster over - but sometimes it's a bonus - you pull over a stack
+and then hit it with your other guys. Put them in the middle of your army
+instead of at the edge like a normal range troop. Elephants have a speed of 4
+but move 8 hexes; this is often a bonus, letting you get the first hit in,
+but is bad against shooters. Circus heroes start with two yellow skills
+instead of the usual blue skill and yellow skill.
+
+City Of Shadows
+
+1. Shadows. Flying. For every 5 Shadows in your army that die, your hero
+   gains 2 spell points. Shadows are produced by the Dark Arts skill.
+2. Soul Thieves. When a Soul Thief attacks a unit, that unit loses its
+   abilities for the rest of combat (the Soul Thief doesn't gain them
+   though). The Soul Thief doesn't remove abilities granted by spells.
+   Soul Thieves are produced by Necromancers.
+3. Horrors. Each time a stack of Horrors is damaged in combat, it gains
+   +1 speed, +2 damage, and +2 hit points, for the rest of combat.
+4. Necromancers. Range. When the last creature in a stack is killed by
+   Necromancers, you gain a Soul Thief where the dead creature was, and
+   keep it after combat if you have space in your army.
+5. Evil Fogs. Flying. When Evil Fogs damage a unit, that unit can't move
+   the next time it would normally get to. It can still attack though.
+6. Death Puppets. When the last creature in a stack is killed by Death
+   Puppets, the Death Puppets get to go again, once per combat round.
+
+This castle's low-level creatures are strong. You will find yourself trying
+to get your opponent to kill your Shadows, so you can get the spell points.
+Even a single Soul Thief can drastically reduce the power level of an enemy
+stack. Horrors are unexciting in small quantities, but a big stack of them
+can be very hard to deal with. Necromancers are also strong, but the building
+is hard to pay for and hard to place. Obviously any army with Necromancers is
+going to want to reserve space for Soul Thieves. When playing this castle,
+you'll want Dark Arts more than usual, since it makes your kind of creature.
+Persuasion is good, since you'll have Shadows, and can thus take Shadows from
+enemy heroes with Dark Arts.
+
+Cloud Castle
+
+1. Shrinking Men. Shrinking Men take only 10% of the damage from non-melee
+   sources, such as spells, range attacks, and attacks that hit multiple
+   hexes (and aren't aimed directly at the Shrinking Men).
+2. Witches. Range, but only one shot per combat. When Witches damage a
+   unit, that unit becomes hexed for the rest of combat. A hexed unit has
+   -1 speed, -2 damage, and -2 hit points. Being hexed isn't cumulative.
+3. Will-o-wisps. Flying. When Will-o-wisps are damaged, they teleport to
+   a random empty hex.
+4. Dancing Swords. Flying. Whenever a spell is cast in combat (even via
+   Djinns or an artifact), Dancing Swords get +1 speed, +2 damage, and +2 hit
+   points, for the rest of combat. They only get the bonus once for a spell
+   that's split with Sorcery.
+5. Illusionists. Range. At the start of combat, 2 illusion copies of each
+   stack of Illusionists appear. Each time Illusionists take a turn in combat,
+   they then may randomly switch places with one of the illusion stacks, if
+   one remains. An illusion stack disappears if it takes any damage. Spells
+   that don't deal damage don't affect an illusion stack. Illusions always
+   look like the stack they're copying, including spell effects and how many
+   creatures are left.
+6. Cloud Giants. Cloud Giants attack in all directions, and destroy any
+   obstacles they attack (but not fire or water).
+
+Shrinking Men are tough, and very annoying to face in the early game. You will
+want to split your Witches up into as many stacks as possible, since it only
+takes one Witch to hex a stack. This makes Leadership a good choice for Cloud
+Castle heroes. You will also want Wizardry or Lore to make your Dancing Swords
+get better faster. The Will-o-wisp ability is half bonus half penalty; the
+Wisps are very fast, which somewhat compensates. Illusionists are strong, but
+can block your own creatures in on certain battlefields; put fliers or
+shooters next to them in your army.
+
+Evil Temple
+
+1. Angry Villagers. Short-range range attack - only hits enemies within 6
+   hexes.
+2. Skulks. Can switch places with any other monster as its move.
+3. Priests. Per Priest, gives +50 gp Persuasion, +35 gp Healing after combat,
+   and heals each stack 1 hit point per combat round.
+4. Vile Ducks. Flying. When Vile Ducks damage a stack, they cast a random
+   low-level evil spell on them.
+5. Werewolves. When Werewolves deal damage, it's rounded up to kill a whole
+   monster. When the last creature in a stack is killed by Werewolves, the
+   Werewolves increase in hit points, damage, and speed and gain an ability:
+   1) Retaliate (as per Wobbler); 2) Disease (similar to Witch ability); 3)
+   Poison (as per Scorpion); 4) Stun (as per Evil Fog).
+6. Serpent Angels. Flying. At the start of a Serpent Angel's turn, it casts a
+   random high-level beneficial spell on a random friendly stack.
+
+Angry Villagers can't just attack in the first round like a real range unit,
+but the ability to shoot even only at short range is often useful. Skulks are
+tricky; they can get at faraway monsters, teleport a monster into danger, or
+save a monster from danger. Vile Ducks are nasty but vulnerable. Serpent
+Angels are very strong when they cast their spells on your good stacks; but
+they're also the most expensive creature in the game. The Evil Temple has no
+real range unit, but has fast monsters to compensate. Leadership is especially
+good, as four of your monsters do something that's useful if you have even a
+single creature of that type, and the Priest's Persuasion gets better with
+more army slots. Evil Temple heroes start with two blue skills, instead of
+the usual blue skill and yellow skill.
+
+Factory
+
+1. Robots. Range, but only in a straight line. There has to be a straight
+   horizontal or diagonal line between an enemy and the Robots for them to
+   use their Range attack. They don't have to hit the first enemy in
+   line-of-sight, though.
+2. Wobblers. After a Wobbler is melee attacked, it retaliates, with a free
+   attack against the attacker. It doesn't retaliate against non-melee
+   attacks, including spells, range attacks, and attacks that hit multiple
+   hexes (and aren't aimed directly at the Wobblers). The retaliation itself
+   is not a melee attack.
+3. Whirlies. Flying. Whirlies get a free attack prior to moving. Then they
+   get a normal turn, consisting of an optional move and optional attack.
+   So they can attack twice, but only if the first attack can be made without
+   moving.
+4. Transformers. During odd-numbered combat rounds (including the 1st round),
+   Transformers have flying. During even-numbered rounds, they have a range
+   attack.
+5. Steamroller. Steamrollers can move over enemies (but not friendly units)
+   as if they had flying. Any enemy moved over in this way is attacked by the
+   Steamroller. This is not a melee attack. The Steamroller still gets to
+   make its normal attack after moving. When you hover the mouse cursor over
+   a hex you might want to move your Steamrollers to, any enemies that will
+   be attacked by that move will be shadowed, as with attacks.
+6. Lasers. Range. Lasers turn the hex they attack to fire. Fire deals 200
+   damage to a unit that starts its turn in it.
+
+Robots are the weakest 1st level creature; don't expect them to get to shoot
+too often. Wobblers are tough but slow. So with this castle you tend to focus
+on Whirlies and up, which are all solid creatures. Transformers are very
+defensive for a range unit. Steamrollers are hard to get the bonus out of,
+but still very nice. Lasers are great to have just a few of; they aren't so
+bad to have tons of, but you only get the fire once per attack.
+
+Jungle Fort
+
+1. Bunnies. Bunnies can jump over adjacent obstacles; if they jump they can't
+   keep moving afterwards that round (but can still attack). On day 1 of each
+   week, each stack of Bunnies in a hero's army grows by 10%. Bunnies on the
+   map also grow faster than other monsters. Bunnies in castles, and
+   unpurchased Bunnies, do not get this bonus.
+2. Giant Frogs. Range, but only vs. flying creatures. Giant Frogs jump, like
+   Bunnies do.
+3. Mad Turtles. At the start of each combat round after the 1st, each stack
+   of Mad Turtles gains +1 speed, +2 damage, and +2 hit points, for the rest
+   of combat.
+4. Fungi. Fungi can teleport to any hex adjacent to a Fungus, Carnivorous
+   Plant, or tree obstacle. They can't keep moving after teleporting (but can
+   still attack).
+5. Carnivorous Plants. Range. Carnivorous Plants can't move and go last, even
+   if they have all sorts of speed bonuses.
+6. Kongs. When Kongs attack an enemy, that enemy is teleported (thrown) to a
+   random empty hex.
+
+The Jungle Fort has no flying creatures, but kind of gets around this by
+having two jumping creatures and the teleporting Fungi. It also doesn't have
+a range unit until 5th level, although the Giant Frogs function as ranged
+units in lots of battles. That sounds like a bad combination, but the Jungle
+Fort units are pretty tough (except the Bunnies), and range attacks aren't as
+good as they are in most games. Split up your Fungi into multiple stacks;
+this will let them hit monsters that thought they were standing just out of
+range. Mad Turtles are exceptional in longer battles and solid in short ones.
+
+Laboratory
+
+1. Lab Assistants. Range, with a one hex area-of-effect. This attack can
+   damage friendly units. Lab Assistants can attack an empty hex, obstacle,
+   or friendly unit, as long as one of the adjacent hexes contains an enemy.
+   Lab Assistants don't damage themselves when they are in range.
+2. Pygmy Dragon. Flying. Pygmy Dragon attacks also hit the next hex beyond
+   the attacked hex (breath weapon), even if that hex has a friendly stack.
+   That extra attack is not a melee attack. Pygmy Dragons can attack an empty
+   hex, obstacle, or friendly unit, as long as the next hex has an enemy.
+3. Mimics. When Mimics damage another unit in combat, they gain that unit's
+   abilities for the rest of combat. This is cumulative. Gained abilities
+   apply immediately, including abilities that cause something to happen when
+   the unit attacks.
+4. Blobs. When Blobs are damaged, they split into 2 stacks (if there's room
+   and more than 1 Blob). They reform into one stack at the end of combat.
+5. Headlesses. Headlesses attack in all directions. They can damage friendly
+   units this way.
+6. Mad Scientists. When Mad Scientists damage a unit, that unit is replaced
+   by the next lowest level unit for the same castle type, for the rest of
+   combat. This is cumulative; units can't go below 1st level. Surviving
+   units revert to normal at the end of combat.
+
+Several of these units can hurt your own troops; watch out! Be especially
+careful with your Mimics, which will sometimes have abilities you've forgotten
+about. Mimics are worth the risk, though; they can become awesome monsters
+from hell, when facing multiple kinds of enemies. Mad Scientists are the
+deadliest unit in the game; a single Mad Scientist can effectively inflict
+any amount of damage, although you do still have to kill off the "devolved"
+units. The Blob ability is a penalty; Blobs have solid stats, but so many
+creatures have a good plan against them, that you usually won't want them.
+Lab Assistants do very little damage, and are very slow, but they're still a
+first level range unit; they're strong in the early game. Offense is
+especially nice with this castle, since the bonus rounds up; even +1 damage
+drastically improves Lab Assistants.
+
+Pyramid
+
+1. Scorpions. When Scorpions damage a unit, or are damaged by a unit, that
+   unit becomes poisoned for the rest of combat. Poison deals damage to the
+   poisoned unit at the start of its turn; the damage is equal to 2 times the
+   number of Scorpions that damaged the unit. If less Scorpions damage the
+   same unit later, that doesn't lower the amount of poison.
+2. Mummies. When Mummies are damaged, they immediately regenerate, so that
+   the top unit of the stack never has any damage on it. In other words, you
+   can't kill a fraction of a Mummy; you have to kill entire Mummies.
+3. Vultures. Flying. Whenever the last unit of a stack is killed, no matter
+   what killed it, all Vultures that can teleport to that hex or an adjacent
+   hex, and gain +1 speed, +2 damage, and +2 hit points, for the rest of
+   combat.
+4. Djinns. Range. At the start of a Djinn's turn, it casts a random low-level
+   beneficial spell on a random friendly stack.
+5. Guardians. Guardians can teleport to any hex adjacent to any of your other
+   creatures; they can't keep moving after teleporting (but can attack).
+6. Slavers. When Slavers attack a stack, before doing damage, you take control
+   of 1 creature per Slaver. You keep these creatures at the end of combat, if
+   you have space in your army. If there is no room for the new stack in
+   combat, the Slavers kill that many creatures instead.
+
+Scorpions are excellent, and remain good in the late game; Mummies are strong
+at first, but not exceptional later. Sometimes a small stack simply can't
+kill a Mummy. Vultures have a way of getting themselves killed, but are very
+strong in large battles. Leadership is particularly good with Pyramid troops;
+you want multiple stacks of Djinns, multiple small stacks of creatures to die
+and feed the Vultures, and room in your army for Slaver-ed creatures. Slavers
+are potentially extremely powerful, but they're frail, and the computer will
+desperately try to kill them off.
+
+Ruins
+
+1. Rubber Rats. When Rubber Rats are melee attacked, they push the attacker
+   back as far as it can go (until it hits an obstacle, a creature stack, or
+   the edge of the combat field). This doesn't work against non-melee attacks,
+   including spells, range attacks, and attacks that hit more than one hex
+   (and don't hit the Rubber Rats directly).
+2. Mosquito Clouds. Flying. When Mosquito Clouds damage a unit, they heal up
+   to as much damage as they deal; this can bring back dead Mosquito Clouds,
+   but can't increase a stack beyond its size at the start of combat.
+3. Electric Eels. Range. When Electric Eels hit a stack, they also hit a
+   random adjacent stack for half damage, and then a random adjacent stack
+   other than the 1st one for a quarter damage. They can hit friendly stacks
+   this way, but can't hit themselves (their attack won't chain through
+   themselves either).
+4. Flying Slugs. Flying. Flying Slugs leave a trail of water when they move.
+   When they attack a hex, they turn that hex into water. A non-flying unit
+   that starts a turn in water has half speed that turn.
+5. Two-headed Giants. Two-headed Giants attack both forwards and backwards.
+   They can damage friendly units this way. When Two-headed Giants attack a
+   stack, that stack is split into 2 stacks, if there's room and more than 1
+   surviving creature in the stack. Stacks split this way reform into one
+   stack at the end of combat.
+6. Fire Duikers. Fire Duikers have a long breath weapon, hitting the next
+   3 hexes behind the attacked hex. This can hurt friendly units; the extra
+   attacks aren't melee attacks; and Fire Duikers can attack hexes that are
+   empty or have obstacles or friends, provided that one of the attacked
+   hexes has an enemy. When the last Fire Duiker in a stack dies, it explodes,
+   turning that hex and each adjacent hex to fire (which deals 200 damage to
+   a unit starting a turn in one of those hexes).
+
+The creatures in the Ruins are kind of tricky. The Rubber Rats ability is
+usually a penalty, but they're still okay. It keeps monsters away from them,
+so you're less likely to kill them with your Electric Eels. The splitting
+ability of Two-headed Giants is surprisingly useful; it's also a combo with
+the Electric Eels. The Eels themselves are strong, but it's very easy to end
+up accidentally hitting your own troops with them, or skipping an attack so
+that you don't. A big stack of Mosquito Clouds can be very hard to deal with;
+you'll want to mop up at the end of combat with the Mosquito Clouds, rather
+than kill everything as quickly as possible (unless fighting a Hero). Flying
+Slugs can be used in a pinch to put out fires your creatures are standing in.
+
+Thieves' Guild
+
+1. Urchins. After Urchins attack, each adjacent enemy unit is pushed one hex
+   away from the Urchins, if possible.
+2. Lookouts. Range. At the start of a hero's turn (outside of combat), the
+   hero gets +1 movement for that turn per 30 Lookouts in his army.
+3. Sneaks. Sneaks can teleport to hexes adjacent to enemy monsters; they
+   can't keep moving after teleporting (but can attack).
+4. Ninjas. Flying. When Ninjas attack a unit, they exchange places with it.
+5. Assassins. Before dealing damage, Assassins kill one attacked creature per
+   Assassin.
+6. Masterminds. Range. Masterminds hit all enemies at once. This works even
+   if they make a non-range attack.
+
+Lookouts are weak in combat, but the extra movement is excellent. Assassins
+are strong against high level troops, but weak in earlier battles. Urchins
+and Ninjas both have lackluster abilities, but they are useful sometimes
+(especially when there's fire around), and both creatures have great stats.
+Sneaks are excellent, often functioning like a ranged unit.
+
+HERO SKILLS
+
+When a hero goes up a level, he learns a skill. That's the entire
+significance of going up a level (that, and you'll need more experience to go
+up the next level).
+
+Each hero can have 4 blue skills and 4 yellow skills. A blue skill is a skill
+that can keep going up indefinitely. A yellow skill can only go up to 3rd
+level. Heroes can have additional skills due to artifacts or map locations,
+but your hero can only innately learn 8 skills.
+
+In the explanations that follow, X is your skill level. It is your actual
+total skill level, not just the level you've learned. So if you have
+Offense 3 and a Sword of +2 Offense and just visited a Shrine of Offense,
+you effectively have Offense 7, and would deal +70% damage.
+
+Blue skills
+
+- Archery. Your hero gets a range attack, which deals 50X damage. You get to
+  use your range attack just prior to casting spells each round.
+- Conjuring. At the start of each battle, your hero gets a stack of 700X gp
+  of his friendly troop. This stack disappears at end of combat.
+- Dark Arts. When enemy creatures die in combat (no matter how they die), you
+  get Shadows (a creature found in the City of Shadows). You get X Shadows
+  per 30 creatures killed. Fractional Shadows are remembered between battles.
+  You get the Shadows immediately, during combat; if you already have a stack
+  of Shadows, they join one of those stacks, and otherwise, a new stack is
+  created near where the last creatures died.
+- Defense. Your hero's troops have +10X% hit points, rounded up.
+- Healing. Whenever one of your hero's stacks takes a turn in combat, it heals
+  15X hit points. At the end of combat, your hero revives up to 400X gp of
+  dead troops. Creatures are only revived if at least one creature in the
+  stack survived. You get as many gp worth of creatures back as possible; if
+  there's a tie you heal a random tying stack.
+- Offense. Your hero's troops deal +10X% damage, rounded up.
+- Pathfinding. Your hero moves an extra X hexes per day, and sees X hexes
+  farther through the fog of war.
+- Persuasion. When your hero attacks, before combat, you gain control of
+  600X gp of enemy troops that are the same creature type as troops already
+  in your army. This works for any battle, not just neutral monsters on the
+  map. You keep these troops after combat.
+- Power. Your hero's spells that deal damage deal more damage; your hero's
+  spells that summon creatures summon more creatures; and the Blow spell
+  blows things farther. The actual formula for damage/summoning depends on
+  the spell; however it is always of the form N + 1.5NX. So Zap, for example,
+  deals 50 damage, plus 75 damage per point of Power.
+- Spellcraft. Your hero has +20X maximum spell points, and regains an extra
+  +3X spell points each day.
+- Summoning. Your hero produces creatures at the start of each day. You
+  produce 200X gp of creatures of the type this hero is friendly with. Any
+  fractional creatures are remembered for the next day.
+- Warcraft. At the start of each battle, your hero gains 66X gp of his
+  friendly troop, X spell points, and 0.1X movement points. Fractional troops
+  and movement are remembered.
+
+Yellow skills
+
+- Alchemy. Your hero creates an artifact every 7 days, at the start of the
+  day. The level of the artifact cycles between 1 and X. If you can't carry
+  the artifact, you create one on the first day that you can. Your hero also
+  has +X slots for gear artifacts.
+- Cunning. Whenever your hero gains experience, he gains an extra +5X%. When
+  your hero gets a choice of skills when going up a level, he gets an extra
+  choice. With Cunning 2, your hero can have an extra blue skill; with Cunning
+  3, he can have an extra yellow skill also.
+- Expertise. Your hero specializes in a particular blue skill. At Expertise
+  1, he is always offered that skill and gets double that skill from Schools.
+  At Expertise 2, he also gains a bonus ability that varies by skill. At
+  Expertise 3, all of your heroes (including this one) get +1 of that skill.
+- Familiar. Your hero learns 1-3 spells which he can cast for half price once
+  per battle. At 1st level you get a 1st level spell; at 2nd level you either
+  upgrade it to 2nd level or get another 1st level spell; at 3rd level you
+  either have 3 1st level, a 1st and a 2nd, or a 3rd level spell.
+- Insight. Your hero has +1 level of X of his other yellow skills, or all of
+  them at Insight 3. For some skills (generally ones which can't naturally go
+  up to 4th level) you instead gain a related ability.
+- Leadership. Your hero has +X army slots.
+- Lore. Whenever your hero goes up a level, he learns a spell. You get to
+  pick between 2 spells, one level X, the other level X + 1. Also, your
+  spells cost X spell points less to cast per level of spell.
+- Sorcery. Your spells with targets can have an additional +X targets. Power
+  and Witchcraft are divided by the number of targets. You don't need to use
+  all of the targets you can.
+- Specialty. When you get this skill you choose a creature type for your
+  hero's castle type. That creature type gets +10X% damage and hit points,
+  and +0.5X speed, for the first two levels. At Specialty 3 that creature
+  gains an ability (in addition to the previous boost). The ability will
+  usually be something some other creature normally has, and will sometimes
+  be exciting, but not always. The special abilities for your castle type
+  are displayed when you pick the creature type to specialize in.
+- Tactics. Your hero's troops have +0.5X speed.
+- Witchcraft. Your hero's spells last an extra +X combat rounds. Your spells
+  with a % have a better %. "Good" spells are +20% normally, and get +20X%.
+  "Evil" spells are -15% normally, and are -25%, -35%, and -50%, for
+  Witchcraft 1-3. 
+- Wizardry. Your hero can use an additional +10X spell points during each
+  combat round. Your hero has +2X speed in combat, for spellcasting and
+  Archery.
+
+SPELLS
+
+There are 36 spells, divided into 4 levels. Higher level spells cost more
+spell points to cast, and are harder to acquire.
+
+Each hero starts out knowing one spell. Spells can be learned from Spell
+Crypts and Spell Towers in castles; from Spell Pavilions and Libraries on
+the map; from the Lore skill; and from artifacts. There are 4 spells that
+will never appear in castles or Spell Pavilions; you will usually need Lore
+to learn them. They are: Mental Blast, Mind Blank, Grenade, and Joy.
+
+In the descriptions below, P is the spellcasting hero's Power skill * 1.5 + 1,
+and W is a value based on the hero's Witchcraft skill (+20/+40/+60/+80 or
+-15/-25/-35/-50). Spells cast other ways, such as by Djinns or artifacts,
+have their own values.
+
+Good spells target a friendly stack. Evil spells target an enemy stack.
+Neutral spells can target either. Duration spells last a number of rounds
+based on the hero's Witchcraft skill (or 1 round by default). A stack can
+have multiple Duration spells on it at once, but only one copy of each; the
+last one cast overrides the previous one. Also a stack can't have two
+Duration spells on it with opposing effects; the earlier-cast spell is
+dispelled. So for example if a monster has Grow on it, you will remove that
+spell if you cast Grow, Shrink, Woe, or Joy on it.
+
+Level 1
+
+- Bad Luck. Evil, Duration. A stack deals minimum damage.
+- Blow. Neutral. Moves a stack 3 hexes towards the enemy side of the field.
+- Deserter. Evil. Kills a single creature outright.
+- Fly. Neutral, Duration. A stack gains flying.
+- Fury. Good, Duration. A stack deals +W% damage.
+- Good Luck. Good, Duration. A stack deals maximum damage.
+- Grow. Good, Duration. A stack has +W% hit points.
+- Mental Blast. Evil. Deals 15P to each enemy stack.
+- Swarm. Evil, Duration. Deals 30P damage now, and 30P damage each round.
+- Zap. Evil. Deals 50P damage to a stack.
+
+Level 2
+
+- Agility. Good, Duration. A stack gets +W% speed.
+- Conjure. Create 10P Bunnies in an empty hex. You lose them at the end of
+  combat.
+- Fatigue. Evil, Duration. A stack gets -W% speed.
+- Fire Bolt. Evil. Deals 100P damage to a stack, and sets that hex on fire.
+  This will deal 200 more damage if the stack starts a turn there.
+- Heal. Good. Removes all enemy spells from a stack (even neutral ones), as
+  well as negative effects like being hexed. Heals the stack to full hit
+  points and brings back one dead creature.
+- Mind Blank. Neutral, Duration. A stack loses its abilities.
+- Mud Ball. Evil. Deals 100P damage to a stack, and turns that hex into water.
+  This slows the stack down to half speed if it starts a turn there and
+  doesn't fly.
+- Shrink. Evil, Duration. A stack gets -W% hit points.
+- Traitor. Evil. Gain control of a single creature from a stack. You keep
+  this creature after combat, if there's room for it in your army. If there's
+  no adjacent empty hex in combat to put the creature in, it kills a creature
+  instead.
+- Weakness. Evil, Duration. A stack deals -W% damage.
+
+Level 3
+
+- Fire Shield. Sets each hex adjacent to any of your stacks on fire, but not
+  any of the hexes any of your stacks are in. The fire will do 200 damage at
+  the start of a stack's turn to a stack in that hex.
+- Grenade. Evil. Deals 50P damage to a stack, and to each adjacent hex. Any
+  obstacles in those hexes are destroyed (but not fire or water).
+- Ice Bolt. Evil, Duration. Deals 150P damage to a stack (once), and that
+  stack has -2 speed.
+- Kill. Kills P creatures outright.
+- Magic Bow. Good, Duration. A stack gains a range attack.
+- Sicken. Evil. Stack is stunned (it can't move the next time it would
+  normally get to) and diseased (it has -2 hit points, -2 damage, -1 speed).
+- Vampire. Good, Duration. A stack gains the drain life ability that Mosquito
+  Clouds have; when it deals damage, it will heal that many hit points, and
+  this can bring back dead creatures, but can't increase the stack beyond its
+  original size.
+- Vengeance. Good, Duration. A stack gains the ability to retaliate against
+  melee attacks. This does not include range attacks, spells, or attacks that
+  hit multiple hexes that aren't aimed directly at it.
+
+Level 4
+
+- Inferno. Deals 100P damage to each enemy stack, and sets all of those hexes
+  on fire. The fire will deal 200 damage to a stack that starts a turn in it.
+- Joy. Duration. All of your stacks get +W% hit points, damage, and speed.
+- Multiply. Good. A stack gains creatures equal to a % of the creatures in the
+  stack - either 2, 4, 6, or 8%, based on the hero's level of Witchcraft.
+  These creatures are kept after combat ends.
+- Polymorph. Evil, Duration. Turns a stack into the next lowest level creature
+  for that castle type (unless it's already 1st level).
+- Renew. Good. Heals a stack (like the Heal spell). That stack gets an extra
+  turn this round (whether or not it has gone already this round).
+- Shapeshift. Good, Duration. Turns a stack into the next highest level
+  creature for that castle type (unless it's already 6th level).
+- Summon. Creates a stack of 10P random 3rd level creatures in an empty hex.
+  You lose these creatures at the end of combat.
+- Woe. Duration. All enemy stacks get -W% hit points, damage, and speed.
+
+TWISTS
+
+There are 24 twists. They may be chosen directly or randomly, and modify the
+game rules to create a variety of game experiences. Don't play with these
+until you've played a bunch of normal games.
+
+- Heroes have +14 movement. That's per day. Be prepared to zip around.
+- Heroes earn double XP. This applies to Chests, Monuments, etc., as well as
+  to battles.
+- Heroes have +1 of each blue skill. There are 12 blue skills and you start
+  at level 1 in each. This is not part of your innate skills; you still get
+  the normal 4 blue skills that you learn.
+- Heroes have a normal maximum of 4 skills. That's 2 blue skills and 2 yellow
+  skills. You will end up really specializing in something.
+- All heroes start with the same random artifact. It's a low-level artifact.
+- All heroes start with the same random skill. It can be blue or yellow.
+- Starting heroes start with the same random monster stack. The stack can
+  range in power level from 1200 to 4800 gp worth of monsters, of any level.
+  Other heroes you buy will not have the stack - only your starting hero (and
+  not your 2nd starting hero if you play with that twist also).
+- When one of your heroes gains XP, they all do. Basically all of your heroes
+  will be as good as your best one. Even later in the game, when you buy a
+  new hero, he will quickly shoot up levels to be almost as good as your old
+  heroes (not counting artifacts etc.).
+- Castles start with more obstacles. This applies to both normal castles and
+  outposts; outposts will be really cramped.
+- Castle dwellings have double cost and production. This is like having
+  buildings that are half as big, only you need to buy them two at a time.
+- All castles start with the same random building. It can be a creature
+  dwelling or other building. It will match its castle type.
+- Castles buildings decay over time. The rate depends on the size of the
+  building - it's 10 days, plus 4 days per square. When a building decays it
+  vanishes from your castle; the space may be re-used.
+- A random level of castle dwelling only takes one square. The dwelling still
+  produces creatures as if it were the normal number of squares.
+- Castle creature types are mixed up. The 1st level creature type for each
+  castle stays the same. The other levels are all offset by a random number.
+  So maybe City of Shadows will have Shadows, Giant Frogs, Will-o-wisps,
+  Djinns, Guardians, and Mad Scientists. You can see what you're getting on
+  the screen where you choose your starting castle type. Each monster will
+  still only appear in one castle type.
+- All monsters have the same random ability. It can be almost any ability
+  that any monster ever has, including a few artifact-only abilities. You
+  can't get the Cloud Giant obstacle-destroying ability this way (which slows
+  down combat too much without being interesting), or the trail-of-fire
+  ability (which would just kill many stacks before they moved), or stun
+  (too ridiculous and dull on shooters), or the Clown Car ability (too hard
+  to finish battles). That still leaves some pretty wacky possible games.
+  When you choose this twist, you will sometimes want to reject the ability
+  you ended up with, and start a fresh game.
+- No range in jungle or flying in snow; slow in wasteland. Range units simply
+  lose that ability in jungles, and fliers lose flying in snow; in desolate
+  terrain, units with neither ability have -1 speed. You get reminded of
+  these hard-to-remember things in the combat log.
+- Players start with an extra hero. You don't get to pick him.
+- Players can only have two heroes. You can still buy new heroes, and buy
+  heroes back when they die, but you can only own two heroes at once.
+- No actions are possible on the last two days of each week. Those turns go
+  by fast. Basically this means you have a 5-day week, which makes stuff like
+  Alchemy more powerful, and means that every 5 days you get a bonanza of
+  resources and creatures available.
+- All resource piles are the same. They will all be one resource, anything
+  from gold to clay. You can still get other resources from mines, Barrels,
+  etc.
+- Buildings that improve heroes are one-use. When you visit a School, Spell
+  Pavilion, etc., if it did something for you, it turns into a rock. It stays
+  there if it couldn't help your hero. Other buildings like Dwellings are
+  unaffected.
+- Forests gradually die. Every turn some trees on the map are replaced with
+  open space. This will eventually let you sometimes pick up treasures
+  without fighting monsters, or will open up new paths between castles.
+- Dwellings gradually appear in empty places on the map. Every day a few
+  dwellings will appear. They never completely block off any spot that was
+  accessible before. They are normal dwellings. They increase in level over
+  the course of the game.
+- Water on the map periodically floods and retreats. The water advances just
+  one hex, and never farther, from the starting position; but that's enough
+  to cut off paths and trap heroes. It is more likely to retreat than to
+  flood.
+
+TECHNICAL / MISCELLANEOUS
+
+CONFIG.DAT is a text file consisting of two lines with positive integers in
+ASCII. The first line has the factor for how long animation delays in combat
+last. The default is 100, and it's a %. A bigger number makes the game run
+slower; a smaller number makes it run faster. 200 will mean double the normal
+delays, while 50 would mean half the normal delays. Use 1 if you want to
+completely eliminate the delays. The second line has the amount of delay
+when scrolling on the map using the mouse. The default is 5; a bigger number
+means more delay, a smaller number less delay. Edit this file using a text
+editor like Notepad, not using a word processor.
+
+SAVEGAME.DAT contains your saved game. You normally can have only one saved
+game. If you must have more, copy SAVEGAME.DAT to another file, and/or copy
+that file to SAVEGAME.DAT.
+
+You can press Alt-P on some screens to get a screen capture into SCREEN.BMP.
+
+Dudes is a DOS program. DOS is no longer with us, but is generally well
+supported by Windows 98, Windows ME, and Windows XP, all of which Dudes has
+been tested on. Dudes runs in 640x480x256 VGA graphics mode. Your computer or
+monitor may require tweaking to make that work. But the odds are that the
+only thing you have to do is to make a shortcut to Dudes, and then edit the
+preferences for the shortcut (say, by setting 640x480 mode).
+
+You can make your own random map templates with a text editor. Copy one of
+the .RMT files to a new DOS-compatible filename with the .RMT extension (say,
+a 1-8 -letter name, plus ".RMT). Edit the file in a text editor (not a word
+processor). "*" means solid obstacle; " " means open; "1"-"8" indicates a
+starting castle; "a".."h" indicates an outpost associated with a starting
+castle; "@" means a central neutral castle; "$" means any other neutral
+castle; "%" means any other neutral outpost. You can only have one of each
+number, and must have each number in sequence from 1 to your highest number.
+You can have more than one letter per number, and can have more of some
+letters than others, and can have multiple $'s and %'s, but can't have more
+than 25 total castles/outposts on the map. The outer wall of *'s has to be
+there, and any coordinate with an odd X and odd Y has to be a *. If making
+random map templates interests you, fiddle around with it, eventually you'll
+get it right. All of the .RMT files are examples. If you blow it the program
+may crash when you start it, or else the map may be screwed up somehow. Just
+go back into your text editor and keep fiddling with it.
