@@ -4,7 +4,8 @@ X. Vaccarino.
 
 # Where's the original game?
 A commit of the original binaries and source code can be found on the `original`
-branch in this repository.
+branch in this repository.  If you'd prefer the Windows version (16-bit only,
+with no source code), it's on the `original-win` branch.
 
 # License and copyright
 The original source code, along with the reimplementation, are licensed under
