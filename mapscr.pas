@@ -3013,6 +3013,7 @@ procedure TMapScr.StartTurn;
                             end;
                           end;
                         end;
+                        { FIXME: 1200 isn't enough to handle Serpent Angels. }
                         MapNum^[nx, ny] := 1200 div MonsterData[m].cost;
                       end else if TheMap^[nx, ny] = mHordeDwelling then begin
                         MapNum^[nx, ny] := 40;
@@ -3150,6 +3151,7 @@ procedure TMapScr.NewWeek;
                             MapInfo^[i, j] := random(6) + 1;
                           end;
           mDwelling:    begin
+                          { FIXME: 1200 isn't enough to handle Serpent Angels. }
                           n := 1200
                                div MonsterData[MapInfo^[i, j] and $7F].cost;
                           MapNum^[i, j] := n;
@@ -3252,6 +3254,7 @@ procedure TMapScr.NextTurn;
                   if mons > 5 then mons := 5;
                   mons := mons + 1 + 6 * random(8);
                   MapInfo^[x, y] := mons;
+                  { FIXME: 1200 isn't enough to handle Serpent Angels. }
                   qty := 1200 div MonsterData[mons].cost;
                   if qty < 1 then qty := 1;
                   MapNum^[x, y] := qty;
@@ -3673,6 +3676,7 @@ function TMapScr.SpotScore(h, x, y: integer): integer;
                            ss := d
                          else
                            ss := d + 100;
+                         { FIXME: 1200 isn't enough to handle Serpent Angels. }
                          gp := 1200;
                          CheckFight(x, y);
                        end else begin

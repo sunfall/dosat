@@ -2255,6 +2255,7 @@ procedure MapGeosToMap(MG: PMapGeos);
                        gp := gp * n + (gp * n * n) div 8;
                        MapInfo^[i, j] := mons;
                        case TheMap^[i, j] of
+                         { FIXME: 1200 isn't enough to handle Serpent Angels. }
                          mDwelling:    n := 1200 div MonsterData[mons].cost;
                          mMonster,
                          mHardMonster: n := gp div MonsterData[mons].cost;
